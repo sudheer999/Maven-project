@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Build-Java: 1.8.0_152
+Build-Label: 1.0-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: wlcome
+Build-Host: 
+Build-Maven: Maven 3.5.2
+Build-Time: 2017-11-18T10:33:46Z
+Build-OS: Windows 7
+Build-User: wlcome
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_152
+

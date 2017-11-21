@@ -1,0 +1,321 @@
+16:00:33,965 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+16:00:34,034 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 3.2.11 at URL file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-core/3.2.11/datanucleus-core-3.2.11.jar.
+16:00:34,115 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-core/3.2.11/datanucleus-core-3.2.11.jar!/plugin.xml.
+16:00:34,169 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-core/3.2.11/datanucleus-core-3.2.11.jar!/plugin.xml.
+16:00:34,182 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 3.2.10 at URL file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.10/datanucleus-rdbms-3.2.10.jar.
+16:00:34,238 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.10/datanucleus-rdbms-3.2.10.jar!/plugin.xml.
+16:00:34,267 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.10/datanucleus-rdbms-3.2.10.jar!/plugin.xml.
+16:00:34,288 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 3.2.7 at URL file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.7/datanucleus-api-jdo-3.2.7.jar.
+16:00:34,292 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.7/datanucleus-api-jdo-3.2.7.jar!/plugin.xml.
+16:00:34,294 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.7/datanucleus-api-jdo-3.2.7.jar!/plugin.xml.
+16:00:34,310 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.types.jodatime version 3.2.1 at URL file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar.
+16:00:34,316 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar!/plugin.xml.
+16:00:34,316 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar!/plugin.xml.
+16:00:34,318 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.jdo.query version 3.0.2 at URL file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jdo-query/3.0.2/datanucleus-jdo-query-3.0.2.jar.
+16:00:34,324 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jdo-query/3.0.2/datanucleus-jdo-query-3.0.2.jar!/plugin.xml.
+16:00:34,324 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jdo-query/3.0.2/datanucleus-jdo-query-3.0.2.jar!/plugin.xml.
+16:00:34,325 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/C:/Users/wlcome/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+16:00:34,327 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+16:00:34,328 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+16:00:34,389 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+16:00:34,397 (main) DEBUG [DataNucleus.Persistence] - Not enabling java type support for javax.time.calendar.LocalDate : java type not present in CLASSPATH
+16:00:34,397 (main) DEBUG [DataNucleus.Persistence] - Not enabling java type support for javax.time.calendar.LocalDateTime : java type not present in CLASSPATH
+16:00:34,397 (main) DEBUG [DataNucleus.Persistence] - Not enabling java type support for javax.time.calendar.LocalTime : java type not present in CLASSPATH
+16:00:34,509 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded : supported java types=java.awt.Color, java.lang.Float, [Ljava.lang.Integer;, java.sql.Time, java.util.SortedSet, java.net.URL, java.util.Date, java.util.PriorityQueue, float, [Ljava.lang.Character;, [Ljava.lang.Double;, java.lang.Integer, java.math.BigDecimal, java.util.Vector, java.lang.Character, java.lang.Enum, java.lang.Long, java.lang.Short, java.util.Locale, java.util.Map, java.math.BigInteger, java.net.URI, java.lang.Byte, java.util.GregorianCalendar, java.awt.image.BufferedImage, byte, double, java.util.TimeZone, java.sql.Timestamp, java.util.Collection, java.util.Set, java.util.UUID, [Ljava.lang.String;, java.util.List, [Ljava.lang.Short;, java.lang.StringBuilder, java.util.Queue, java.util.SortedMap, [Ljava.lang.Enum;, [Ljava.lang.Boolean;, java.lang.Double, [Ljava.util.Date;, [B, [C, org.joda.time.LocalTime, org.joda.time.Duration, [D, java.util.HashMap, java.util.Currency, [F, long, java.util.Stack, java.util.TreeSet, [I, java.util.ArrayList, [J, java.util.HashSet, java.util.LinkedHashMap, org.joda.time.Interval, java.util.Calendar, java.lang.StringBuffer, [S, [Ljava.math.BigInteger;, java.lang.Boolean, [Ljava.lang.Number;, java.lang.String, [Ljava.math.BigDecimal;, java.lang.Number, java.util.LinkedList, java.util.Hashtable, java.util.LinkedHashSet, [Z, org.joda.time.Period, [Ljava.lang.Float;, java.util.Properties, [Ljava.lang.Byte;, org.joda.time.DateTime, [Ljava.util.Locale;, int, java.sql.Date, org.joda.time.LocalDate, boolean, java.util.TreeMap, [Ljava.lang.Long;, char, short, java.lang.Class, java.util.BitSet, java.util.Arrays$ArrayList
+16:00:34,510 (main) DEBUG [DataNucleus.Persistence] - Type converter support initialising ...
+16:00:34,512 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigDecimal<->java.lang.String using org.datanucleus.store.types.converters.BigDecimalStringConverter
+16:00:34,514 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigInteger<->java.lang.String using org.datanucleus.store.types.converters.BigIntegerStringConverter
+16:00:34,515 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.BitSet<->java.lang.String using org.datanucleus.store.types.converters.BitSetStringConverter
+16:00:34,517 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Calendar<->java.lang.String using org.datanucleus.store.types.converters.CalendarStringConverter
+16:00:34,518 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Class<->java.lang.String using org.datanucleus.store.types.converters.ClassStringConverter
+16:00:34,520 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.awt.Color<->java.lang.String using org.datanucleus.store.types.converters.ColorStringConverter
+16:00:34,521 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Integer<->java.lang.String using org.datanucleus.store.types.converters.IntegerStringConverter
+16:00:34,522 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Long<->java.lang.String using org.datanucleus.store.types.converters.LongStringConverter
+16:00:34,523 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Currency<->java.lang.String using org.datanucleus.store.types.converters.CurrencyStringConverter
+16:00:34,524 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.Long using org.datanucleus.store.types.converters.DateLongConverter
+16:00:34,525 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.String using org.datanucleus.store.types.converters.DateStringConverter
+16:00:34,527 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Locale<->java.lang.String using org.datanucleus.store.types.converters.LocaleStringConverter
+16:00:34,527 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.Long using org.datanucleus.store.types.converters.SqlDateLongConverter
+16:00:34,528 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.String using org.datanucleus.store.types.converters.SqlDateStringConverter
+16:00:34,529 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimeLongConverter
+16:00:34,530 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.String using org.datanucleus.store.types.converters.SqlTimeStringConverter
+16:00:34,531 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Timestamp<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimestampLongConverter
+16:00:34,532 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.StringBuffer<->java.lang.String using org.datanucleus.store.types.converters.StringBufferStringConverter
+16:00:34,533 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.StringBuilder<->java.lang.String using org.datanucleus.store.types.converters.StringBuilderStringConverter
+16:00:34,534 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.TimeZone<->java.lang.String using org.datanucleus.store.types.converters.TimeZoneStringConverter
+16:00:34,535 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URI<->java.lang.String using org.datanucleus.store.types.converters.URIStringConverter
+16:00:34,536 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URL<->java.lang.String using org.datanucleus.store.types.converters.URLStringConverter
+16:00:34,537 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.UUID<->java.lang.String using org.datanucleus.store.types.converters.UUIDStringConverter
+16:00:34,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDate<->java.lang.String ignored since java type not present in CLASSPATH
+16:00:34,540 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.String ignored since java type not present in CLASSPATH
+16:00:34,541 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.Long ignored since java type not present in CLASSPATH
+16:00:34,543 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDateTime<->java.lang.String ignored since java type not present in CLASSPATH
+16:00:34,544 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->java.lang.String using org.datanucleus.store.types.converters.SerializableStringConverter
+16:00:34,546 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->[B using org.datanucleus.store.types.converters.SerializableByteArrayConverter
+16:00:34,548 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.DateTime<->java.lang.String using org.datanucleus.store.types.converters.JodaDateTimeStringConverter
+16:00:34,551 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Duration<->java.lang.String using org.datanucleus.store.types.converters.JodaDurationStringConverter
+16:00:34,552 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Interval<->java.lang.String using org.datanucleus.store.types.converters.JodaIntervalStringConverter
+16:00:34,553 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.LocalDate<->java.lang.String using org.datanucleus.store.types.converters.JodaLocalDateStringConverter
+16:00:34,554 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.LocalTime<->java.lang.String using org.datanucleus.store.types.converters.JodaLocalTimeStringConverter
+16:00:34,556 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Period<->java.lang.String using org.datanucleus.store.types.converters.JodaPeriodStringConverter
+16:00:34,556 (main) DEBUG [DataNucleus.Persistence] - Type converter support loaded
+16:00:34,556 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+16:00:34,558 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.11) for API "JDO" using JRE "1.8"
+16:00:34,582 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+16:00:34,584 (main) DEBUG [DataNucleus.Enhancer] - >>  D:\Practice\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar
+16:00:34,587 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes for JRE=1.8 with stackmap-frames=true
+16:00:34,608 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for classes "[dom.simple.QSimpleObject, dom.simple.SimpleObject, dom.simple.SimpleObjects]" ...
+16:00:34,627 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /META-INF/package.jdo
+16:00:34,627 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /WEB-INF/package.jdo
+16:00:34,628 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /package.jdo
+16:00:34,628 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /dom/package.jdo
+16:00:34,628 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /dom.jdo
+16:00:34,629 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /dom/simple/package.jdo
+16:00:34,629 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /dom/simple.jdo
+16:00:34,630 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /dom/simple/QSimpleObject.jdo
+16:00:34,630 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" not found
+16:00:34,630 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.simple.QSimpleObject" as not having MetaData.
+16:00:34,630 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.QSimpleObject" has no MetaData or annotations.
+16:00:34,724 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.SimpleObject" has been specified with JDO annotations so using those.
+16:00:34,755 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /META-INF/package.jdo
+16:00:34,756 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /WEB-INF/package.jdo
+16:00:34,756 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /package.jdo
+16:00:34,756 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /dom/package.jdo
+16:00:34,757 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /dom.jdo
+16:00:34,757 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /dom/simple/package.jdo
+16:00:34,758 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /dom/simple.jdo
+16:00:34,758 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /dom/simple/SimpleObjects.jdo
+16:00:34,758 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" not found
+16:00:34,758 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.simple.SimpleObjects" as not having MetaData.
+16:00:34,758 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.SimpleObjects" has no MetaData or annotations.
+16:00:34,758 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+16:00:34,760 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.SimpleObject" : Populating Meta-Data
+16:00:34,761 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.SimpleObject" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+16:00:34,766 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /META-INF/package.jdo
+16:00:34,766 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /WEB-INF/package.jdo
+16:00:34,767 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /package.jdo
+16:00:34,767 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/package.jdo
+16:00:34,767 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org.jdo
+16:00:34,768 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/package.jdo
+16:00:34,768 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache.jdo
+16:00:34,769 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/package.jdo
+16:00:34,769 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis.jdo
+16:00:34,769 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/applib/package.jdo
+16:00:34,770 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/applib.jdo
+16:00:34,770 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/applib/DomainObjectContainer.jdo
+16:00:34,770 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" not found
+16:00:34,770 (main) DEBUG [DataNucleus.MetaData] - Registering class "org.apache.isis.applib.DomainObjectContainer" as not having MetaData.
+16:00:34,772 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+16:00:34,773 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.SimpleObject" : Initialising Meta-Data
+16:00:34,777 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+16:00:34,799 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.simple.SimpleObject" starting ...
+16:00:34,836 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt implement the interface "javax.jdo.spi.PersistenceCapable" but is required
+16:00:34,837 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have field "jdoFlags" but is required
+16:00:34,837 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have field "jdoPersistenceCapableSuperclass" but is required
+16:00:34,837 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have field "jdoInheritedFieldCount" but is required
+16:00:34,837 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have field "jdoStateManager" but is required
+16:00:34,837 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have field "jdoFieldNames" but is required
+16:00:34,837 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have field "jdoFieldFlags" but is required
+16:00:34,837 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have field "jdoFieldTypes" but is required
+16:00:34,837 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoIsTransactional" but is required
+16:00:34,838 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoGetObjectId" but is required
+16:00:34,838 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoGetPersistenceManager" but is required
+16:00:34,838 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoIsDirty" but is required
+16:00:34,838 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoIsDetached" but is required
+16:00:34,838 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoNewObjectIdInstance" but is required
+16:00:34,838 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoNewObjectIdInstance" but is required
+16:00:34,838 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoCopyFields" but is required
+16:00:34,838 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoIsDeleted" but is required
+16:00:34,838 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoNewInstance" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoNewInstance" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoGetVersion" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoProvideField" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoGetManagedFieldCount" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoReplaceField" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoCopyField" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoProvideFields" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoCopyKeyFieldsFromObjectId" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoCopyKeyFieldsFromObjectId" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoSuperClone" but is required
+16:00:34,839 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "__jdoGetInheritedFieldCount" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "__jdoFieldTypesInit" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoReplaceFlags" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "___jdo$loadClass" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoMakeDirty" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoGetTransactionalObjectId" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "__jdoFieldNamesInit" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoIsNew" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoReplaceStateManager" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "__jdoFieldFlagsInit" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoPreSerialize" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoIsPersistent" but is required
+16:00:34,840 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoReplaceFields" but is required
+16:00:34,841 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoCopyKeyFieldsToObjectId" but is required
+16:00:34,841 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "jdoCopyKeyFieldsToObjectId" but is required
+16:00:34,841 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" doesnt have method "__jdoPersistenceCapableSuperclassInit" but is required
+16:00:34,859 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: javax.jdo.spi.PersistenceCapable
+16:00:34,868 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetname()"
+16:00:34,871 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetname(class java.lang.String val)"
+16:00:34,872 (main) DEBUG [DataNucleus.Enhancer] - Adding field "javax.jdo.spi.StateManager jdoStateManager"
+16:00:34,872 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte jdoFlags"
+16:00:34,873 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B jdoFieldFlags"
+16:00:34,873 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class jdoPersistenceCapableSuperclass"
+16:00:34,873 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; jdoFieldTypes"
+16:00:34,873 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; jdoFieldNames"
+16:00:34,873 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int jdoInheritedFieldCount"
+16:00:34,875 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+16:00:34,876 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsFromObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fc, class java.lang.Object oid)"
+16:00:34,876 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsFromObjectId(class java.lang.Object oid)"
+16:00:34,876 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsToObjectId(class java.lang.Object oid)"
+16:00:34,877 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsToObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fs, class java.lang.Object oid)"
+16:00:34,877 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetObjectId()"
+16:00:34,878 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetVersion()"
+16:00:34,878 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoPreSerialize()"
+16:00:34,879 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.PersistenceManager jdoGetPersistenceManager()"
+16:00:34,879 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetTransactionalObjectId()"
+16:00:34,917 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDeleted()"
+16:00:34,919 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDirty()"
+16:00:34,919 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsNew()"
+16:00:34,919 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsPersistent()"
+16:00:34,920 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsTransactional()"
+16:00:34,920 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoMakeDirty(class java.lang.String fieldName)"
+16:00:34,920 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoNewObjectIdInstance()"
+16:00:34,921 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoNewObjectIdInstance(class java.lang.Object key)"
+16:00:34,921 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideFields(class [I indices)"
+16:00:34,922 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceFields(class [I indices)"
+16:00:34,922 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceFlags()"
+16:00:34,923 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceStateManager(interface javax.jdo.spi.StateManager sm)"
+16:00:34,923 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDetached()"
+16:00:34,923 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+16:00:34,924 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+16:00:34,924 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceField(int index)"
+16:00:34,925 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideField(int index)"
+16:00:34,926 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyField(class dom.simple.SimpleObject obj, int index)"
+16:00:34,926 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+16:00:34,927 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __jdoFieldNamesInit()"
+16:00:34,928 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __jdoFieldTypesInit()"
+16:00:34,928 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __jdoFieldFlagsInit()"
+16:00:34,928 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __jdoGetInheritedFieldCount()"
+16:00:34,928 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetManagedFieldCount()"
+16:00:34,929 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+16:00:34,930 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+16:00:34,930 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoSuperClone()"
+16:00:34,932 (main) INFO  [DataNucleus.Enhancer] - Writing class file "D:\Practice\mvn\project-1\dom\target\classes\dom\simple\SimpleObject.class" with enhanced definition
+16:00:34,933 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.simple.SimpleObject
+16:00:34,934 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.simple.SimpleObject" completed
+16:00:34,936 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=189 ms, enhance=157 ms, total=346 ms. Consult the log for full details
+16:03:53,551 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+16:03:53,599 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 3.2.11 at URL file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-core/3.2.11/datanucleus-core-3.2.11.jar.
+16:03:53,655 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-core/3.2.11/datanucleus-core-3.2.11.jar!/plugin.xml.
+16:03:53,690 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-core/3.2.11/datanucleus-core-3.2.11.jar!/plugin.xml.
+16:03:53,699 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 3.2.10 at URL file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.10/datanucleus-rdbms-3.2.10.jar.
+16:03:53,734 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.10/datanucleus-rdbms-3.2.10.jar!/plugin.xml.
+16:03:53,753 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.10/datanucleus-rdbms-3.2.10.jar!/plugin.xml.
+16:03:53,762 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 3.2.7 at URL file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.7/datanucleus-api-jdo-3.2.7.jar.
+16:03:53,767 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.7/datanucleus-api-jdo-3.2.7.jar!/plugin.xml.
+16:03:53,768 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.7/datanucleus-api-jdo-3.2.7.jar!/plugin.xml.
+16:03:53,776 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.types.jodatime version 3.2.1 at URL file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar.
+16:03:53,781 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar!/plugin.xml.
+16:03:53,782 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jodatime/3.2.1/datanucleus-jodatime-3.2.1.jar!/plugin.xml.
+16:03:53,784 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.jdo.query version 3.0.2 at URL file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jdo-query/3.0.2/datanucleus-jdo-query-3.0.2.jar.
+16:03:53,786 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jdo-query/3.0.2/datanucleus-jdo-query-3.0.2.jar!/plugin.xml.
+16:03:53,786 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/datanucleus/datanucleus-jdo-query/3.0.2/datanucleus-jdo-query-3.0.2.jar!/plugin.xml.
+16:03:53,787 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/C:/Users/wlcome/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+16:03:53,789 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+16:03:53,789 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/wlcome/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+16:03:53,846 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+16:03:53,855 (main) DEBUG [DataNucleus.Persistence] - Not enabling java type support for javax.time.calendar.LocalDate : java type not present in CLASSPATH
+16:03:53,855 (main) DEBUG [DataNucleus.Persistence] - Not enabling java type support for javax.time.calendar.LocalDateTime : java type not present in CLASSPATH
+16:03:53,856 (main) DEBUG [DataNucleus.Persistence] - Not enabling java type support for javax.time.calendar.LocalTime : java type not present in CLASSPATH
+16:03:53,935 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded : supported java types=java.awt.Color, java.lang.Float, [Ljava.lang.Integer;, java.sql.Time, java.util.SortedSet, java.net.URL, java.util.Date, java.util.PriorityQueue, float, [Ljava.lang.Character;, [Ljava.lang.Double;, java.lang.Integer, java.math.BigDecimal, java.util.Vector, java.lang.Character, java.lang.Enum, java.lang.Long, java.lang.Short, java.util.Locale, java.util.Map, java.math.BigInteger, java.net.URI, java.lang.Byte, java.util.GregorianCalendar, java.awt.image.BufferedImage, byte, double, java.util.TimeZone, java.sql.Timestamp, java.util.Collection, java.util.Set, java.util.UUID, [Ljava.lang.String;, java.util.List, [Ljava.lang.Short;, java.lang.StringBuilder, java.util.Queue, java.util.SortedMap, [Ljava.lang.Enum;, [Ljava.lang.Boolean;, java.lang.Double, [Ljava.util.Date;, [B, [C, org.joda.time.LocalTime, org.joda.time.Duration, [D, java.util.HashMap, java.util.Currency, [F, long, java.util.Stack, java.util.TreeSet, [I, java.util.ArrayList, [J, java.util.HashSet, java.util.LinkedHashMap, org.joda.time.Interval, java.util.Calendar, java.lang.StringBuffer, [S, [Ljava.math.BigInteger;, java.lang.Boolean, [Ljava.lang.Number;, java.lang.String, [Ljava.math.BigDecimal;, java.lang.Number, java.util.LinkedList, java.util.Hashtable, java.util.LinkedHashSet, [Z, org.joda.time.Period, [Ljava.lang.Float;, java.util.Properties, [Ljava.lang.Byte;, org.joda.time.DateTime, [Ljava.util.Locale;, int, java.sql.Date, org.joda.time.LocalDate, boolean, java.util.TreeMap, [Ljava.lang.Long;, char, short, java.lang.Class, java.util.BitSet, java.util.Arrays$ArrayList
+16:03:53,936 (main) DEBUG [DataNucleus.Persistence] - Type converter support initialising ...
+16:03:53,941 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigDecimal<->java.lang.String using org.datanucleus.store.types.converters.BigDecimalStringConverter
+16:03:53,943 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigInteger<->java.lang.String using org.datanucleus.store.types.converters.BigIntegerStringConverter
+16:03:53,944 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.BitSet<->java.lang.String using org.datanucleus.store.types.converters.BitSetStringConverter
+16:03:53,946 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Calendar<->java.lang.String using org.datanucleus.store.types.converters.CalendarStringConverter
+16:03:53,947 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Class<->java.lang.String using org.datanucleus.store.types.converters.ClassStringConverter
+16:03:53,947 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.awt.Color<->java.lang.String using org.datanucleus.store.types.converters.ColorStringConverter
+16:03:53,948 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Integer<->java.lang.String using org.datanucleus.store.types.converters.IntegerStringConverter
+16:03:53,949 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Long<->java.lang.String using org.datanucleus.store.types.converters.LongStringConverter
+16:03:53,949 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Currency<->java.lang.String using org.datanucleus.store.types.converters.CurrencyStringConverter
+16:03:53,950 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.Long using org.datanucleus.store.types.converters.DateLongConverter
+16:03:53,950 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.String using org.datanucleus.store.types.converters.DateStringConverter
+16:03:53,951 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Locale<->java.lang.String using org.datanucleus.store.types.converters.LocaleStringConverter
+16:03:53,951 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.Long using org.datanucleus.store.types.converters.SqlDateLongConverter
+16:03:53,952 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.String using org.datanucleus.store.types.converters.SqlDateStringConverter
+16:03:53,952 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimeLongConverter
+16:03:53,953 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.String using org.datanucleus.store.types.converters.SqlTimeStringConverter
+16:03:53,953 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Timestamp<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimestampLongConverter
+16:03:53,954 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.StringBuffer<->java.lang.String using org.datanucleus.store.types.converters.StringBufferStringConverter
+16:03:53,955 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.StringBuilder<->java.lang.String using org.datanucleus.store.types.converters.StringBuilderStringConverter
+16:03:53,955 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.TimeZone<->java.lang.String using org.datanucleus.store.types.converters.TimeZoneStringConverter
+16:03:53,956 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URI<->java.lang.String using org.datanucleus.store.types.converters.URIStringConverter
+16:03:53,957 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URL<->java.lang.String using org.datanucleus.store.types.converters.URLStringConverter
+16:03:53,958 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.UUID<->java.lang.String using org.datanucleus.store.types.converters.UUIDStringConverter
+16:03:53,958 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDate<->java.lang.String ignored since java type not present in CLASSPATH
+16:03:53,959 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.String ignored since java type not present in CLASSPATH
+16:03:53,960 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.Long ignored since java type not present in CLASSPATH
+16:03:53,961 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDateTime<->java.lang.String ignored since java type not present in CLASSPATH
+16:03:53,962 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->java.lang.String using org.datanucleus.store.types.converters.SerializableStringConverter
+16:03:53,963 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->[B using org.datanucleus.store.types.converters.SerializableByteArrayConverter
+16:03:53,965 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.DateTime<->java.lang.String using org.datanucleus.store.types.converters.JodaDateTimeStringConverter
+16:03:53,966 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Duration<->java.lang.String using org.datanucleus.store.types.converters.JodaDurationStringConverter
+16:03:53,967 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Interval<->java.lang.String using org.datanucleus.store.types.converters.JodaIntervalStringConverter
+16:03:53,968 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.LocalDate<->java.lang.String using org.datanucleus.store.types.converters.JodaLocalDateStringConverter
+16:03:53,969 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.LocalTime<->java.lang.String using org.datanucleus.store.types.converters.JodaLocalTimeStringConverter
+16:03:53,969 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Period<->java.lang.String using org.datanucleus.store.types.converters.JodaPeriodStringConverter
+16:03:53,970 (main) DEBUG [DataNucleus.Persistence] - Type converter support loaded
+16:03:53,970 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+16:03:53,971 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.11) for API "JDO" using JRE "1.8"
+16:03:53,974 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+16:03:53,975 (main) DEBUG [DataNucleus.Enhancer] - >>  D:\Practice\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar
+16:03:53,978 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes for JRE=1.8 with stackmap-frames=true
+16:03:53,995 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for classes "[dom.simple.QSimpleObject, dom.simple.SimpleObject, dom.simple.SimpleObjects]" ...
+16:03:54,008 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /META-INF/package.jdo
+16:03:54,008 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /WEB-INF/package.jdo
+16:03:54,008 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /package.jdo
+16:03:54,008 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /dom/package.jdo
+16:03:54,009 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /dom.jdo
+16:03:54,009 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /dom/simple/package.jdo
+16:03:54,009 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /dom/simple.jdo
+16:03:54,010 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" NOT found at /dom/simple/QSimpleObject.jdo
+16:03:54,010 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.QSimpleObject" not found
+16:03:54,010 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.simple.QSimpleObject" as not having MetaData.
+16:03:54,010 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.QSimpleObject" has no MetaData or annotations.
+16:03:54,088 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.SimpleObject" has been specified with JDO annotations so using those.
+16:03:54,118 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /META-INF/package.jdo
+16:03:54,118 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /WEB-INF/package.jdo
+16:03:54,119 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /package.jdo
+16:03:54,119 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /dom/package.jdo
+16:03:54,119 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /dom.jdo
+16:03:54,120 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /dom/simple/package.jdo
+16:03:54,120 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /dom/simple.jdo
+16:03:54,120 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" NOT found at /dom/simple/SimpleObjects.jdo
+16:03:54,120 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "dom.simple.SimpleObjects" not found
+16:03:54,121 (main) DEBUG [DataNucleus.MetaData] - Registering class "dom.simple.SimpleObjects" as not having MetaData.
+16:03:54,121 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.SimpleObjects" has no MetaData or annotations.
+16:03:54,121 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+16:03:54,122 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.SimpleObject" : Populating Meta-Data
+16:03:54,122 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.SimpleObject" field "container" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+16:03:54,126 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /META-INF/package.jdo
+16:03:54,126 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /WEB-INF/package.jdo
+16:03:54,126 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /package.jdo
+16:03:54,127 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/package.jdo
+16:03:54,127 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org.jdo
+16:03:54,127 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/package.jdo
+16:03:54,128 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache.jdo
+16:03:54,128 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/package.jdo
+16:03:54,128 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis.jdo
+16:03:54,128 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/applib/package.jdo
+16:03:54,129 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/applib.jdo
+16:03:54,129 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" NOT found at /org/apache/isis/applib/DomainObjectContainer.jdo
+16:03:54,129 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "org.apache.isis.applib.DomainObjectContainer" not found
+16:03:54,129 (main) DEBUG [DataNucleus.MetaData] - Registering class "org.apache.isis.applib.DomainObjectContainer" as not having MetaData.
+16:03:54,131 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+16:03:54,132 (main) DEBUG [DataNucleus.MetaData] - Class "dom.simple.SimpleObject" : Initialising Meta-Data
+16:03:54,134 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+16:03:54,144 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.simple.SimpleObject" starting ...
+16:03:54,184 (main) INFO  [DataNucleus.Enhancer] - Class "dom.simple.SimpleObject" is already enhanced.
+16:03:54,184 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : dom.simple.SimpleObject
+16:03:54,185 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.simple.SimpleObject" completed
+16:03:54,186 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=155 ms, enhance=51 ms, total=206 ms. Consult the log for full details
